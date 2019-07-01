@@ -1,5 +1,7 @@
 # galmoji
 
+[![Build Status](https://travis-ci.org/tamanugi/galmoji.svg?branch=master)](https://travis-ci.org/tamanugi/galmoji)
+
 awesome [GALMOJI](https://en.wikipedia.org/wiki/Gyaru-moji) converter 🎉
 
 # Install
