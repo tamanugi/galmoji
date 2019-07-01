@@ -8,5 +8,11 @@
   "license": "MIT",
   "keywords": [
     "galmoji"
-  ]
+  ],
+  "devDependencies": {
+    "ava": "^2.1.0"
+  },
+  "scripts": {
+    "test": "ava"
+  }
 }
