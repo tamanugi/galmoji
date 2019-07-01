@@ -1,10 +1,17 @@
 import test from 'ava';
+import galmoji from './index'
 
-test('foo', t => {
-	t.pass();
+test('awesome', t => {
+  const res = galmoji('AWESOME')
+  t.is(res, '闩山ヨ∫口从ヨ')
 });
 
-test('bar', async t => {
-	const bar = Promise.resolve('bar');
-	t.is(await bar, 'bar');
+test('よろしくお願いします', async t => {
+  const res = galmoji('よろしくお願いします')
+  t.is(res, 'ょзι＜ぉ原頁ﾚヽιます')
+});
+
+test('タピオカ', async t => {
+  const res = galmoji('タピオカ')
+  t.is(res, '勺ｔ°才ヵ')
 });
