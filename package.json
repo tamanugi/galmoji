@@ -1,0 +1,12 @@
+{
+  "name": "galmoji",
+  "version": "1.0.0",
+  "description": "Awesome GALMOJI converter",
+  "main": "index.js",
+  "repository": "git@github.com:tamanugi/galmoji.git",
+  "author": "tamanugi <tamanugi@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "galmoji"
+  ]
+}
